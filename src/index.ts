@@ -1,1 +1,1 @@
-export { IPFSCONFIG, Status, Options, getCIDfromPath, ipfsCat, parseContract } from "./verifyProofs";
+export { IPFSCONFIG, Status, Options, Contract, BlockCountry, getCIDfromPath, ipfsCat, parseContract, compareAddresses, verifyParticipant } from "./verifyProofs";
