@@ -11,6 +11,11 @@ Add this to your package.json to grab the latest:
     "@ricardianfabric/verify-signed-contract": "git+https://github.com/StrawberryChocolateFudge/Verify-Signed-Contract.git"
 
 
+# Example
+You can find the example of how to use it in a DEFI front end here:
+    
+    https://github.com/StrawberryChocolateFudge/verify-contract-example
+
 
 # Api
 
