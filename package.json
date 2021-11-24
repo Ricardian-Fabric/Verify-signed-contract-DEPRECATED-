@@ -8,7 +8,6 @@
     "/dist"
   ],
   "scripts": {
-    "build": "rollup -c",
     "test": "jest"
   },
   "repository": {
@@ -41,9 +40,6 @@
   "devDependencies": {
     "@types/jest": "^27.0.3",
     "jest": "^27.3.1",
-    "rollup": "^2.60.1",
-    "rollup-plugin-terser": "^7.0.2",
-    "rollup-plugin-typescript2": "^0.31.1",
     "ts-jest": "^27.0.7",
     "typescript": "^4.5.2"
   }
