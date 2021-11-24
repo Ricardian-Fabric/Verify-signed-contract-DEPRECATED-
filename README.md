@@ -1,6 +1,6 @@
 # @ricadianfabric/Verify-Signed-Contract
 
-Verify-Sgined-Contract is a typescript dependency used for verifying accepted ricardian contracts and it can be used with Ricardian Fabric. When a contract is accepted, the participants can choose to redirect to a url specified by the issuer, the issuer at the specified url can use this dependency to verify the result and then perform actions.
+Verify-Sigined-Contract is a typescript dependency used for verifying accepted ricardian contracts and it can be used with Ricardian Fabric. When a contract is accepted, the participants can choose to redirect to a url specified by the issuer, the issuer at the specified url can use this dependency to verify the result and then perform actions.
 
 This dependency works only from Ricardian Fabric 0.0.4 
 

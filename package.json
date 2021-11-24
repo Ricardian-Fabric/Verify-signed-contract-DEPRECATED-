@@ -1,6 +1,6 @@
 {
   "name": "@ricardianfabric/verify-signed-contract",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Verification for accepted Ricardian contracts",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
