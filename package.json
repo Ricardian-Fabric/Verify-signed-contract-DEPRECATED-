@@ -1,6 +1,6 @@
 {
   "name": "@ricardianfabric/verify-signed-contract",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Verification for accepted Ricardian contracts",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -8,14 +8,18 @@
     "/dist"
   ],
   "scripts": {
-    "build": "tsc",
+    "build": "rollup -c",
     "test": "jest"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/StrawberryChocolateFudge/Verify-Signed-Contract.git"
   },
-  "keywords": [],
+  "keywords": [
+    "ricardian",
+    "ethereum",
+    "ipfs"
+  ],
   "author": "StrawberryChocolateFudge",
   "license": "MIT",
   "directories": {
@@ -37,6 +41,9 @@
   "devDependencies": {
     "@types/jest": "^27.0.3",
     "jest": "^27.3.1",
+    "rollup": "^2.60.1",
+    "rollup-plugin-terser": "^7.0.2",
+    "rollup-plugin-typescript2": "^0.31.1",
     "ts-jest": "^27.0.7",
     "typescript": "^4.5.2"
   }
