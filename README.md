@@ -4,6 +4,14 @@ Verify-Sigined-Contract is a typescript dependency used for verifying accepted r
 
 This dependency works only from Ricardian Fabric 0.0.4 
 
+# Install
+The package is hosted only on github.
+Add this to your package.json to grab the latest:
+
+    "@ricardianfabric/verify-signed-contract": "git+https://github.com/StrawberryChocolateFudge/Verify-Signed-Contract.git"
+
+
+
 # Api
 
     function getCIDfromPath(): Options<string> 
