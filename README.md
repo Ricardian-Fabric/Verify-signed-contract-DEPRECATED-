@@ -9,7 +9,7 @@ The package is hosted only on github.
 Add this to your package.json to grab the latest:
 
     "@ricardianfabric/verify-signed-contract": "git+https://github.com/StrawberryChocolateFudge/Verify-Signed-Contract.git"
-
+IMPORTANT: you need to use yarn!
 
 # Example
 You can find the example of how to use it in a DEFI front end here:
