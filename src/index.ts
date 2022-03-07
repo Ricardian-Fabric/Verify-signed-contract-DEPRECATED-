@@ -196,10 +196,6 @@ export async function parseContract(html: string): Promise<Options<Contract>> {
             display_innerHTML += serializer.serializeToString(node);
         }
         const contracttype = page.getAttribute("data-contracttype");
-
-        if (contracttype !== "fulfilled") {
-            throw new Error("Invalid contract type")
-        }
         const erc20 = page.getAttribute("data-erc20");
         options.data = {
             contracttype: contracttype,
